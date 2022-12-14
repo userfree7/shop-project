@@ -180,11 +180,12 @@ padding: 0 5px;
     display: block;
     position: absolute;
     background-color: #2c71b8;
-    color: #fff;
+    color: #ffffff;
     width: 285px;
     font-size: 21px;
     font-weight: 300;
     display: none;
+    top: 40px;
 }
 .submenu li {
     width: 285px;
@@ -195,7 +196,7 @@ padding: 0 5px;
     height: 40px;
 }
 .submenu a:hover {
-    background-color: white;
+    background-color: #ffffff;
     color: #2c71b8;
 }
 
