@@ -173,3 +173,32 @@ left: -10px;
 top: -10px;
 padding: 0 5px;
 }
+.menu li{
+    position: relative;
+}
+.submenu{
+    display: block;
+    position: absolute;
+    background-color: #2c71b8;
+    color: #fff;
+    width: 285px;
+    font-size: 21px;
+    font-weight: 300;
+    display: none;
+}
+.submenu li {
+    width: 285px;
+    height: 40px;
+}
+.submenu a {
+    width: 285px;
+    height: 40px;
+}
+.submenu a:hover {
+    background-color: white;
+    color: #2c71b8;
+}
+
+.menu li:hover > .submenu {
+    display: block;
+  }
