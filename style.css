@@ -203,3 +203,6 @@ padding: 0 5px;
 .menu li:hover > .submenu {
     display: block;
   }
+  .menu:hover >  .submenu > li{
+    color: #ffffff;
+  }
