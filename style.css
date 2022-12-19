@@ -70,8 +70,8 @@ header {
 }
 
 .col-8 {
-    flex: 0 0 58, 33333%;
-    max-width: 58, 33333%;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
 }
 
 .col-9 {
